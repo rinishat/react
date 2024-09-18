@@ -1,4 +1,4 @@
-import Navbar from "./Components/NavBar"
+import Navbar from "../Components/NavBar"
 
 const App = () => {
     const Appname ={id:11,name:"Hello"};
