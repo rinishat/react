@@ -6,7 +6,7 @@ const Profile = () => {
         <> 
             <Navbar />
 
-            <div className="min-h-screen w-full flex flex-col md:flex-row justify-center items-center bg-[#ffb3c1]">
+            <div className="min-h-screen w-full flex flex-col md:flex-row justify-center items-center bg-[#ffb3c1] overflow-hidden">
             <div className=" mt-15 w-1/2 flex  justify-center items-center">
                 <img src={Profilex} alt="profile" className="rounded-full h-65 w-65 justify-center items-center shadow-2xl" />
                 </div>
