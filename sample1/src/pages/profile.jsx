@@ -1,4 +1,3 @@
-
 import Navbar from '../Component/NavBar'
 import Profilex from '../assets/img/rini.jpeg'
 const Profile = () => {
