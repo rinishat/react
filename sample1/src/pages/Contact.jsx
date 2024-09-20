@@ -10,8 +10,8 @@ const Contact = () => {
         </div>
         <div className="flex-1 flex justify-center items-center">
           <h1 className="text-xl">rinishajesline@gmail.com</h1>
-          <p className="text-xl">7540017432</p>
-          <h1 className="text-xl"></h1>
+          
+          <h2 className="text-end">7540017432</h2>
         </div>
       </div>
     </>
