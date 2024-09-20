@@ -7,9 +7,9 @@ const Project = () => {
   return (
     <>
      <Navbar />
-    <div className="flex flex-wrap bg-[#ffb3c1] items-center justify-center min-h-screen container mx-auto gap-3 overflow-hidden min-w-full">
+    <div className="flex flex-wrap bg-[#f8bdc8] items-center justify-center min-h-screen container mx-auto gap-3 overflow-hidden min-w-full">
       <div className="flex flex-wrap justify-center items-center gap-6 ">
-        <div className="rounded-xl shadow-lg w-full max-w-xs md:max-w-sm lg:max-w-md">
+        <div className="rounded-xl shadow-lg w-full bg-pink-100 max-w-xs md:max-w-sm lg:max-w-md">
           <div className="p-7 flex flex-col">
             <div className="overflow-hidden ">
             <img src={projectx} alt=" " className="w-100 h-45"/>
@@ -20,7 +20,7 @@ const Project = () => {
         </div>
       
       {/* <div className="flex flex-wrap items-center justify-center min-h-screen container mx-auto"> */}
-      <div className="rounded-xl shadow-lg w-full max-w-xs md:max-w-sm lg:max-w-md">
+      <div className="rounded-xl shadow-lg bg-pink-100 w-full max-w-xs md:max-w-sm lg:max-w-md">
         
           <div className="p-7 flex flex-col">
             <div className="rounded-xl overflow-hideen">
@@ -30,7 +30,7 @@ const Project = () => {
             <p>The Excel Sales Dashboard a dynamic tool designed to provide a comprehensive overview of sales performance and trends. This interactive dashboard uses Excel's powerful data visualization and analysis features to help businesses monitor their activities, track key metrics, and make data-driven decisions.</p>
           </div>
         </div>
-        <div className="rounded-xl shadow-lg w-full max-w-xs md:max-w-sm lg:max-w-md">
+        <div className="rounded-xl shadow-lg bg-pink-100 w-full max-w-xs md:max-w-sm lg:max-w-md">
         
           <div className="p-5 flex flex-col">
             <div className="rounded-xl overflow-hideen">
