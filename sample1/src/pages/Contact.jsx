@@ -1,19 +1,18 @@
 import Navbar from "../Component/NavBar"
+import contactx from "../assets/img/contact.jpeg"
 
 const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-[#f8bdc8] min-h-screen flex ">
-        <div className="flex-1 flex justify-center items-center">
-          <h1 className="text-3xl font-bold">I'd love to hear from you. </h1>
-        </div>
-        <div className="flex-1 flex justify-center items-center">
-          <h1 className="text-xl">rinishajesline@gmail.com</h1>
-          
-          <h2 className="text-end">7540017432</h2>
-        </div>
-      </div>
+      <div className="relative min-h-screen overflow-hidden">
+      <div>
+        {/* className="absolute inset-0 bg-[url('/img/contact.jpeg')] bg-cover bg-center" */}
+        <img src={contactx} alt=" " className="absolute inset-0 w-full h-full object-cover"></img>
+     
+      <div className="absolute inset-0 bg-pink-200 bg-opacity-60" ></div>
+    </div>
+    </div>
     </>
   )
 }

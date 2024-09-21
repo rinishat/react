@@ -31,13 +31,13 @@ const Navbar = () => {
         <>
             <div className="w-full h-[4rem] flex justify-center items-center bg-[#881517] shadow-md rounded-sm">
                 <div className="w-[80%] h-full flex justify-center items-center flex-row">
-                    <div className='w-1/2 flex h-full justify-start items-center font-bold text-xl text-white'>Rinisha Jesline T</div>
+                    <div className='w-1/2 flex h-full justify-start items-center font-bold text-2xl text-pink-100'>Portfolio</div>
                     <div className='w-1/2 flex  h-full justify-end items-center'>
                         <ul className='w-full list-none flex flex-row justify-center gap-6'>
                             {
                                 NavLinks.map((navdata, index) => (
                                     <NavLink key={index} to={navdata.path} className='border-b-4 border-transparent w-[5rem]'>
-                                        <li className='font-bold text-xl text-white h-full rounded-sm flex justify-center items-center'>{navdata.title}</li>
+                                        <li className='font-bold text-xl text-pink-100 h-full rounded-sm flex justify-center items-center'>{navdata.title}</li>
                                     </NavLink>
                                 ))
                             }
