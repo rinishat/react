@@ -9,12 +9,10 @@ const Contact = () => {
         <div className="flex w-full min-h-screen justify-center items-center">
           <div className="flex flex-col space-y-6 bg-[#881517] w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
             <div>
-              <h1 className="mb-5 font-bold text-4xl tracking-wide">Contact Us</h1>
+              <h1 className="mb-5 font-bold text-4xl text-pink-100 tracking-wide">Get in Touch</h1>
               <p className="mb-9 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                reprehenderit vel sapiente praesentium eos cupiditate sit natus,
-                exercitationem id quia minus temporibus deserunt, tempore, dolor
-                autem repellendus? Pariatur, corrupti dolor?
+              I’m open to connecting for project collaborations, internships, or academic discussions. Don’t hesitate to reach out! Interested in my work or have an opportunity to discuss? Feel free to get in touch I'd love to hear from you!
+ Whether it's for collaboration, learning opportunities, or feedback on my projects, I'm always happy to connect. Reach out anytime!
               </p>
             </div>
             <div className="flex flex-col space-y-6">
