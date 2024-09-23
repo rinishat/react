@@ -6,8 +6,8 @@ const Contact = () => {
     <>
       <Navbar />
       <div className="antialiased bg-pink-200">
-        <div className="flex w-full min-h-screen justify-center items-center">
-          <div className="flex flex-col space-y-6 bg-[#881517] w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+        <div className="flex w-full min-h-[calc(100vh-4rem)] h-[80%] justify-center items-center">
+          <div className="flex flex-col space-y-6 bg-[#881517ef] w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
             <div>
               <h1 className="mb-5 font-bold text-4xl text-pink-100 tracking-wide">Get in Touch</h1>
               <p className="mb-9 text-sm">

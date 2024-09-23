@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <>
      <Navbar />
-    <div className="flex flex-wrap bg-[#f8bdc8] items-center justify-center min-h-screen container mx-auto gap-3 overflow-hidden min-w-full">
+    <div className="min-h-[calc(100vh-4rem)] h-[80%] flex flex-wrap bg-[#f8bdc8] items-center justify-center  container mx-auto gap-3 overflow-hidden min-w-full">
       <div className="flex flex-wrap justify-center items-center gap-6 ">
         <div className="rounded-xl shadow-lg w-full bg-pink-100 max-w-xs md:max-w-sm lg:max-w-md">
           <div className="p-7 flex flex-col">
